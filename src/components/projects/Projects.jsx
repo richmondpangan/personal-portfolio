@@ -1,28 +1,29 @@
 import React from 'react';
 import "./projects.css";
-import IMG1 from "../../assets/to-do-list-app-snap.png";
+import IMG1 from "../../assets/recipe-finder-app-snap.png";
+import IMG2 from "../../assets/to-do-list-app-snap.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: 'Recipe Finder App',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    github: 'https://github.com/richmondpangan/recipe-finder-app',
+    demo: 'https://recipe-finder-app-pi.vercel.app/'
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'To Do List App',
-    github: 'https://github.com/',
-    demo: 'https://github.com/'
+    image: IMG2,
+    title: 'To-Do List App',
+    github: 'https://github.com/richmondpangan/to-do-list-app',
+    demo: 'https://richmondpangan.github.io/to-do-list-app/'
   }
 ];
 
 function Projects() {
   return (
     <section id='projects'>
-      <h5>My Recent Work</h5>
+      <h5>Browse My Recent</h5>
       <h2>Personal Projects</h2>
 
       <div className="container portfolio__container">
