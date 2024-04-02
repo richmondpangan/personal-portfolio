@@ -1,0 +1,38 @@
+.contact__info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: 1px solid var(--color-primary);
+    background: var(--color-bg);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    max-width: max-content;
+}
+
+.contact__info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact__info-container p {
+    font-size: 1rem;
+}
+
+.contact__icon {
+    cursor: default;
+    font-size: 1.5rem;
+}
+
+/* MEDIA QUERIES (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    .contact__info-upper-container {
+        display: block;
+    }
+
+    .contact__info-container {
+        margin: 0.5rem;
+    }
+}
