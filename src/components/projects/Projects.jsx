@@ -1,7 +1,8 @@
 import React from 'react';
 import "./projects.css";
 import IMG1 from "../../assets/recipe-finder-app-snap.png";
-import IMG2 from "../../assets/to-do-list-app-snap.png";
+import IMG2 from "../../assets/tic-tac-toe-snap.png";
+import IMG3 from "../../assets/to-do-list-app-snap.png";
 
 const data = [
   {
@@ -14,6 +15,13 @@ const data = [
   {
     id: 2,
     image: IMG2,
+    title: 'Tic-Tac-Toe',
+    github: 'https://github.com/richmondpangan/tic-tac-toe',
+    demo: 'https://richmondpangan.github.io/tic-tac-toe/'
+  },
+  {
+    id: 3,
+    image: IMG3,
     title: 'To-Do List App',
     github: 'https://github.com/richmondpangan/to-do-list-app',
     demo: 'https://richmondpangan.github.io/to-do-list-app/'
